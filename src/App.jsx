@@ -70,7 +70,7 @@ function App() {
       </nav>
       <section className="containInf">
         {renderComponent()}
-      </section>
+      </section>    
     </>
   )
 }
