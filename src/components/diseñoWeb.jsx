@@ -183,7 +183,9 @@ const DiseñoWeb = () => {
             </section>
             <section>
                 <h2>Ejemplo visual: Hover y transición</h2>
-                <button style={{
+                <button 
+                  className="btn-demo"
+                  style={{
                     background:'#6fa8ff',
                     color:'#fff',
                     border:'none',
@@ -193,9 +195,9 @@ const DiseñoWeb = () => {
                     cursor:'pointer',
                     transition:'background 0.3s, transform 0.3s',
                     marginBottom:'1.5em'
-                }}
-                onMouseOver={e => {e.currentTarget.style.background='#2056a8';e.currentTarget.style.transform='scale(1.1)'}}
-                onMouseOut={e => {e.currentTarget.style.background='#6fa8ff';e.currentTarget.style.transform='scale(1)'}}
+                  }}
+                  onMouseOver={e => {e.currentTarget.style.background='#2056a8';e.currentTarget.style.transform='scale(1.1)'}}
+                  onMouseOut={e => {e.currentTarget.style.background='#6fa8ff';e.currentTarget.style.transform='scale(1)'}}
                 >
                     Pasa el mouse aquí
                 </button>
@@ -256,7 +258,9 @@ const DiseñoWeb = () => {
             </section>
             <section>
                 <h2>Ejemplo visual: Hover</h2>
-                <button style={{
+                <button 
+                  className="btn-demo"
+                  style={{
                     background:'#6fa8ff',
                     color:'#fff',
                     border:'none',
@@ -266,9 +270,9 @@ const DiseñoWeb = () => {
                     cursor:'pointer',
                     transition:'background 0.3s, transform 0.3s',
                     marginBottom:'1.5em'
-                }}
-                onMouseOver={e => {e.currentTarget.style.background='#2056a8';e.currentTarget.style.transform='scale(1.1)'}}
-                onMouseOut={e => {e.currentTarget.style.background='#6fa8ff';e.currentTarget.style.transform='scale(1)'}}
+                  }}
+                  onMouseOver={e => {e.currentTarget.style.background='#2056a8';e.currentTarget.style.transform='scale(1.1)'}}
+                  onMouseOut={e => {e.currentTarget.style.background='#6fa8ff';e.currentTarget.style.transform='scale(1)'}}
                 >
                     Hover aquí
                 </button>
